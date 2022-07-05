@@ -1,0 +1,30 @@
+/* Media queries Breakpoint mixins */
+
+@mixin for-sm-layout {
+  @media (min-width: $small) {
+    @content;
+  }
+}
+
+@mixin for-md-layout {
+  @media (min-width: $medium) {
+    @content;
+  }
+}
+
+@mixin for-lg-layout {
+  @media (min-width: $large) {
+    @content;
+  }
+}
+
+@mixin for-xl-layout {
+  @media (min-width: $x-large) {
+    @content;
+  }
+}
+
+
+// @include for-md-layout {
+//   margin-bottom: 50% !important;
+// }

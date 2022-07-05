@@ -1,0 +1,13 @@
+select {
+  height: 36px;
+}
+
+.filter .form {
+  @include for-lg-layout {
+    display: flex;
+    flex-direction: row;
+  }
+}
+.contact-filter{
+  margin: 15px;
+}
